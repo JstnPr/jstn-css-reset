@@ -6,17 +6,17 @@ There are a few ways to use this file in your projects, listed below.
 If you want a direct link to attach it somewhere immediately, you can use this URL that uses jsDelivr's CDN.</br>
 This is useful for places like Codepen.io, etc.
 ```
-https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset/reset.min.css
+https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset@main/reset.min.css
 ```
 Note, the `min` in `reset.min.css` tells jsDelivr to minify the file on the fly. If you want to link a non-minified version, simply remove this, as shown below
 ```html
-https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset/reset.css
+https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset@main/reset.css
 ```
 *Note: If you are building a site, there are better methods that save on load speed*
 ### HTML Link
 You can link it in your HTML file's `<head>` to be pulled with your other stylesheets
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset/reset.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jstnpr/jstn-css-reset@main/reset.min.css">
 ```
 ### Node.js / npm Install
 If you're already using node.js, you can install the **un-minified** version using
