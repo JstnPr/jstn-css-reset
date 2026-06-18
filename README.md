@@ -30,7 +30,7 @@ You can import it at the top of your primary JavaScript file `eg. index.js` , so
 import 'jstn-css-reset/reset.css';
 ```
 #### Local Compilation
-If you use a static site generator like 11ty, or a preprocessor like Less, you can `@import` it directly into your stylesheets
+If you use a static site generator like 11ty, or a preprocessor like Less, you can `@import` it directly into your stylesheets, by pasting this at the very top.
 ```css
 @import (inline) "node_modules/jstn-css-reset/reset.css";
 ```
