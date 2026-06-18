@@ -1,0 +1,75 @@
+/*// --- Jstn's CSS Reset --- //*/
+
+/* Global border-box layout and zero out default margins/padding */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent mobile text scaling bugs */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Base viewport and Text Rendering */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*// --- Typography --- //*/
+
+/* Prevent layouts breaking from extra long text or links */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Balance title headlines to prevent single trailing words */
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* Format multi-line paragraphs for better visual wrapping */
+p {
+  text-wrap: pretty;
+}
+
+/*// --- Media & Elements --- //*/
+
+/* Fluid layout for media tags without native spacing bugs */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default list bullets/padding */
+ol, ul {
+  list-style: none;
+}
+
+/* Force form inputs to inherit parent fonts instead of browser defaults */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*// --- Accessibility --- //*/
+
+/* Stop animations for user-level reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
