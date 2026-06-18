@@ -35,5 +35,8 @@ If you use a static site generator like 11ty, or a preprocessor like Less, you c
 @import (inline) "node_modules/jstn-css-reset/reset.css";
 ```
 From there, you can compile and minify it however you see fit, using your pipeline.
+### Direct Download
+If you want to have complete control over using the file, you can download the ZIP directly, below.</br></br>
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-green?style=for-the-badge&logo=github)](https://github.com/JstnPr/jstn-css-reset/archive/refs/heads/main.zip)
 ## License
 This project is open-source software licensed under the **MIT License**. You are completely free to use, modify, and distribute this CSS reset in personal and commercial applications.
