@@ -1,0 +1,7 @@
+{
+  "name": "jstn-css-reset",
+  "version": "1.0.0",
+  "description": "Jstn's CSS reset",
+  "main": "reset.css",
+  "style": "reset.css"
+}
